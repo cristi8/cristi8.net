@@ -1,0 +1,67 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background-color: #faf8f6;
+}
+
+.col-sm-4 {
+}
+
+.cb-wcol {
+    border: 1px dashed #ccc;
+    background-color: #faf8f6;
+    border-radius: 10px;
+
+    margin: 0px -10px;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+
+.cb-wcol h3 {
+    text-align: center;
+}
+
+.cb-company-logo {
+    vertical-align: middle;
+}
+
+.cb-company-logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cb-work-item {
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 3px;
+    border-radius: 3px;
+    background-color: white;
+    border-left-color: #f0ad4e;
+}
+
+.bs-callout {
+    padding: 15px;
+    margin: 30px 0;
+    border: 1px solid #eee;
+    border-left-width: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+
+
