@@ -8,12 +8,16 @@ body {
     background-color: #faf8f6;
 }
 
+footer {
+    margin-top: 30px;
+}
+
 .cb-wcol {
     border: 1px dashed #ccc;
     background-color: #faf8f6;
     border-radius: 10px;
 
-    margin: 0px -10px;
+    margin: 2px -10px;
     padding: 0px 10px;
     overflow: hidden;
 }
@@ -24,11 +28,12 @@ body {
 
 .cb-company-logo {
     vertical-align: middle;
+    text-align: center;
 }
 
-.cb-company-logo img {
-    max-width: 100px;
-    max-height: 100px;
+.cb-company-logo img, .cb-company-logo i {
+    width: 90px;
+    max-height: 90px;
 }
 
 .cb-work-item {
@@ -43,7 +48,7 @@ body {
 
 .bs-callout {
     padding: 15px;
-    margin: 30px 0;
+    margin: 20px 0;
     border: 1px solid #eee;
     border-left-width: 3px;
     border-radius: 3px;
